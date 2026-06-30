@@ -1,0 +1,30 @@
+# ===========================
+# Maven
+# ===========================
+target/
+
+# Maven Wrapper
+.mvn/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Java
+*.class
+
+# JAR Files
+*.jar
+!mvnw
+!mvnw.cmd
