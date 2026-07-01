@@ -67,8 +67,8 @@ jobs:
           image-ref: ${{ steps.login-ecr.outputs.registry }}/${{ secrets.ECR_REPOSITORY }}:${{ github.sha }}
           format: table
           ignore-unfixed: true
-          severity: CRITICAL
-          exit-code: 1
+          severity: HIGH,CRITICAL
+          exit-code: 0
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4

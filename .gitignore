@@ -44,3 +44,6 @@ Thumbs.db
 # Shell
 # ===========================
 *.bak
+
+# GitOps Repository
+cicd-gitops/
